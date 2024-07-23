@@ -15,7 +15,7 @@ Add
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="dotnet tool run dotnet-csharpier . --check" />
   </Target>
-``
+```
 
 to the `enforce_style.csproj`
 
